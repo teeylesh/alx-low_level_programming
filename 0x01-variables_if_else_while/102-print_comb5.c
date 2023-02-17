@@ -19,6 +19,7 @@ int main(void)
 			{
 				putchar((firsts / 10) + 48);
 				putchar((firsts % 10) + 48);
+				putchar(' ');
 				putchar((seconds / 10) + 48);
 				putchar((seconds % 10) + 48);
 

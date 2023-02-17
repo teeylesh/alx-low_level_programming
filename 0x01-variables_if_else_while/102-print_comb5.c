@@ -15,17 +15,19 @@ int main(void)
 	{
 		for (seconds = firsts + 1; seconds <= 99; seconds++)
 		{
-			putchar((firsts / 10) + '0');
-			putchar((firsts % 10) + '0');
-			putchar(' ');
-			putchar((seconds / 10) + '0');
-			putchar((seconds / 10) + '0');
+			if (firsts < seconds)
+			{
+				putchar((firsts / 10) + 48);
+				putchar((firsts % 10) + 48);
+				putchar((seconds / 10) + 48);
+				putchar((seconds % 10) + 48);
 
-			if (firsts == 98 && seconds == 99)
-				continue;
-
-			putchar(',');
-			putchar(' ');
+				if (firsts != 98 || seconds != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');

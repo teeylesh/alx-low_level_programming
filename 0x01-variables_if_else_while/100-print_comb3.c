@@ -11,9 +11,9 @@ int main(void)
 	int firstdi;
 	int seconddi;
 
-	for firstdi (firstdi = '0'; firstdi <= '9'; firstdi++)
+	for (firstdi = '0'; firstdi <= '9'; firstdi++)
 	{
-		for seconddi (seconddi = '0'; seconddi <= '9'; seconddi++)
+		for (seconddi = '0'; seconddi <= '9'; seconddi++)
 		{
 			if (firstdi < seconddi)
 			{

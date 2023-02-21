@@ -1,4 +1,5 @@
-#include <main.h>
+#include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
  * Description: prints _putchar ollowed by a new line

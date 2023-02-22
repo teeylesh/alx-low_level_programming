@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 /**
  * times_table - Entry point
@@ -7,19 +5,19 @@
  */
 void times_table(void)
 {
-	int t, e;
+	int i, j;
 
-for (t = '0'; t <= '9'; t++)
-{
-for (e = '0'; e <= '9'; e++)
-{
-_putchar((t * e) + '0');
-if (e != 9)
-{
-	_putchar(',');
-	_putchar(' ');
-	_putchar(' ');
-}
-}
-}
+	for (i = 0; i <= 9; i++)
+	{
+		for (j = 0; j <= 9; j++)
+		{
+			_putchar(i * j + '0');
+			if (j != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+			}
+		}
+	}
 }

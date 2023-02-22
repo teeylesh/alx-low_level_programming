@@ -1,10 +1,7 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
-/** _isalpha - Entry point
- * Description: Checks if alphabetic character c is a letter
- * lowercase or uppercase
- * Return: 1 if true, 0 if false
+/** _isalpha - checks if alphabet is lower or upper case
+ * @c : character to be checked
+ * Return: 1 if true and 0 if false
  */
 int _isalpha(int c)
 {

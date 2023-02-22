@@ -2,6 +2,7 @@
 /**
  * _isalpha - Entry point
  * Description: checks if alphabet is lower or upper case
+ * @c: character to be checked
  * Return: 1 if true and 0 if false
  */
 int _isalpha(int c)

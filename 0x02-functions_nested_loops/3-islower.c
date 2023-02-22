@@ -4,6 +4,7 @@
 /**
  * _islower - Entry point
  * Description: checks for lowercase character C
+ * @c: character to be checked
  * Return: 1 if true, 0 if false
  */
 int _islower(int c)

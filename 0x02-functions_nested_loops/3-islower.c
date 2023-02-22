@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 #include "main.h"
-/** _islower - Entry point
+/**
+ * _islower - Entry point
  * Description: checks for lowercase character C
  * Return: 1 if true, 0 if false
  */

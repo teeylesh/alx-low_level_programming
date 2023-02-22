@@ -1,5 +1,6 @@
 #include "main.h"
-/** _isalpha - Entry point
+/**
+ * _isalpha - Entry point
  * Description: checks if alphabet is lower or upper case
  * Return: 1 if true and 0 if false
  */

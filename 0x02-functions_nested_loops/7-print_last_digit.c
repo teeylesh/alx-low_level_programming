@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.>
+#include <unistd.h>
 #include "main.h"
 /**
  * print_last_digit - Entry point

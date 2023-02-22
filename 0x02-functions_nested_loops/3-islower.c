@@ -11,6 +11,7 @@ int _islower(int c)
 
 	for (g = 'a'; g <= 'z'; g++)
 	{
+		/*refer int c*/
 		if (c == g)
 		{
 			return(1);

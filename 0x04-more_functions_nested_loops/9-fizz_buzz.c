@@ -1,32 +1,35 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * prints numbers 1 to 100 followed by a new line
+ * main - prints numbers 1 to 100 followed by a new line
+ *
+ * Return: void
  */
-int main(void);
-int _putchar(char a)
+int main(void)
 {
-	for (a = 1; a <= 100; a++)
+	int a = 1;
+
+	while (a <= 100)
 	{
-		while ((a % 3) == 0)
-		{
-			printf("Fizz ");
-		}
-		if ((a % 5) == 0)
-		{
-			printf("Buzz ");
-		}
-		else if (((a % 5) != 0) && ((a % 3) != 0))
+		if (a % 3 == 0 && a % 5 == 0)
 		{
 			printf("FizzBuzz ");
 		}
+		else if (a % 3 == 0)
+		{
+			printf("Fizz ");
+		}
+		else if (a % 5 == 0)
+		{
+			printf("Buzz ");
+		}
 		else
 		{
-			_putchar(a);
-			_putchar(' ');
+			printf("%d", a);
+			putchar(' ');
 		}
 		a++;
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }

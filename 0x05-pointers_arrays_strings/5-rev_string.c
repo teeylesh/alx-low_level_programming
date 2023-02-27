@@ -10,7 +10,8 @@ void rev_string(char *s)
 	int len, g, div;
 	char temp;
 
-	for (len = 0; s[len] != '\0'; len++);
+	for (len = 0; s[len] != '\0'; len++)
+	;
 
 	g = 0;
 	div = len / 2;

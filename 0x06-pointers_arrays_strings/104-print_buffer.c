@@ -15,11 +15,11 @@ void print_buffer(char *b, int size)
 		printf("%08x: ", g * 10);
 		if (g < size / 10)
 		{
-			print_line(b, 9, g);
+			printf(b, 9, g);
 		}
 		else
 		{
-			print_line(b, size % 10 - 1, g);
+			printf(b, size % 10 - 1, g);
 		}
 		putchar('\n');
 	}

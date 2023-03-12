@@ -1,6 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/**
+ * File: main.h
+ * Author: Tobiloba
+ * Descirption: header file containing prototypes of functions
+ */
+
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
